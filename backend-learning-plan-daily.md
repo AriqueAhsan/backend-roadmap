@@ -1,7 +1,6 @@
 # Backend Learning Plan — Day-by-Day Edition
 
 **Stack:** Python · FastAPI · MongoDB · SvelteKit · AI-assisted development
-**You:** 5 yrs frontend/UX (SvelteKit, JS/TS)
 **Schedule:** 4 sessions/week × ~2.5 hrs (= ~10 hrs/wk). Day 5 each week is an optional catch-up/overflow slot — use it, don't feel guilty about needing it.
 **Duration:** 18 weeks of content. Realistically budget **18–20 weeks** — life happens; the buffer is part of the plan, not a failure of it.
 

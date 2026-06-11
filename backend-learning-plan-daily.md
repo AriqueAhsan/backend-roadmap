@@ -1,23 +1,3 @@
-# Backend Learning Plan — Day-by-Day Edition
-
-**Stack:** Python · FastAPI · MongoDB · SvelteKit · AI-assisted development
-**You:** 5 yrs frontend/UX (SvelteKit, JS/TS)
-**Schedule:** 4 sessions/week × ~2.5 hrs (= ~10 hrs/wk). Day 5 each week is an optional catch-up/overflow slot — use it, don't feel guilty about needing it.
-**Duration:** 18 weeks of content. Realistically budget **18–20 weeks** — life happens; the buffer is part of the plan, not a failure of it.
-
-> **Corrections applied vs. the original plan (verified June 2026):**
-> 1. **Motor is dead.** Deprecated May 2025, end-of-life May 2026 (already passed). The async MongoDB driver is now the **PyMongo Async API**, and Beanie ≥2.0 runs on it under the hood. This plan uses Beanie + PyMongo Async; Motor never appears.
-> 2. **passlib is dead.** Unmaintained, breaks on modern Python. FastAPI's own docs now use **pwdlib with Argon2**. Week 8 uses pwdlib.
-> 3. **Deployment free tiers changed.** Fly.io has no free tier for new accounts. Railway gives ~$5 trial credit then needs the $5/mo Hobby plan. **Render still has a true free tier** (spins down after 15 min idle — fine for a portfolio piece). Week 18 targets Render first.
-> 4. **Use `uv`, full stop.** Don't split attention between `uv` and `venv`/`pip` — `uv` is the standard Python tooling in 2026 and does both jobs (`uv venv`, `uv add`, `uv run`).
-
----
-
-## The running project: "Listings API" → full app
-
-Unchanged from the original plan: one capstone that grows every phase.
-CLI script → CRUD API → MongoDB-backed API → SvelteKit + FastAPI full-stack app → tested, containerized, deployed product.
-
 **The one rule:** don't start a new week until the current week's Build works *and you understand every line.* If a week takes 6 days, take 6 days.
 
 ---
